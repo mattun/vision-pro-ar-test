@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vision Pro AR テスト</title>
+  <style>
+    body { 
+      font-family: -apple-system, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .ar-link {
+      display: inline-block;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .ar-link img {
+      max-width: 300px;
+      border: 1px solid #ddd;
+    }
+    .ar-link span {
+      display: block;
+      margin-top: 10px;
+      background: #0071e3;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vision Pro AR テスト</h1>
+  
+  <a rel="ar" href="cube.usdz" class="ar-link">
+    <img src="cube.png" alt="商品サムネイル">
+    <span>Vision Proで見る</span>
+  </a>
+  
+  <p>上のリンクをクリックすると、Vision Proで3Dモデルを実寸大で表示できます。</p>
+</body>
+</html>
